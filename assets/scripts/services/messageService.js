@@ -9,6 +9,7 @@ angular.module('chattyApp')
 
       this.addMessage = function ( message ) {
         return $http.post('/messages', { message: message });
+      
       }
     
   });
